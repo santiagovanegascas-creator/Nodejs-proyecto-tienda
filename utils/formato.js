@@ -1,9 +1,4 @@
+// Funciones de formato y cálculo de dinero
+export const formatearPrecio = (valor) => `$ ${valor.toLocaleString("es-CO")}`;
 
-export  const formatPrecio = (valor)=> {
-return `$ ${valor.toLocaleString("es-CO")}`
-
-}
-export function formatearprecio2(valor){
-   return `${valor}`
-
-}
+export const formatearNombre = (texto) => texto.toUpperCase();
